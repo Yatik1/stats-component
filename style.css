@@ -96,17 +96,6 @@ section ul p {
   font-size: 0.75rem;
 }
 
-.bg-img {
-  min-height: 10em;
-  width: 540px;
-  min-width: 200px;
- background-image: url(./images/image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0 10px 10px 0;
-  overflow: hidden;
-}
-
 .overlay {
   background: var(--bg-violet);
   height: 100%;
@@ -118,6 +107,16 @@ section ul p {
   mix-blend-mode: color-burn;
 }
 
+.bg-img {
+    min-height: 10em;
+    width: 540px;
+    min-width: 200px;
+   background-image: url(./images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+  }
 
 /* media queries */
 
